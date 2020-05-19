@@ -54,5 +54,5 @@ while selection != 'q':
         found_movies = find_movie()
         print_movies(found_movies)
     else:
-        print('Unknown command. Please try again.')
+        print('Unknown command. Please try again!')
     selection = input(menu_prompt)
